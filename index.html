@@ -6,128 +6,174 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/estilos/style.css">
     <link rel="shortcut icon" href="src/imagens/hollow-knight.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/estilos/scrollbar.css">
     <title>Hollow Knight Bosses</title>
 </head>
 <body>
     <header>
         <nav class="menu">
             <img class="logo" src="src/imagens/logo-hollow-knight.png" alt="Logo Hollow Knight">
-            <button>
+            <button class="botao">
                 <img class="imagem-botao" src="src/imagens/alma-do-rei.png" alt="Botão Alterar Tema">
             </button>
         </nav>
     </header>
     <main>
-        <ul>
+        <ul class="lista-bosses">
             <li>
                 <div class="cartao-boss">
+                    <img class="bestiario" src="src/imagens/bestiario-inicio.png" alt="Bestiario Inicio">
                     <span class="nome-boss">Falso Cavaleiro</span>
                     <img class="imagem-boss" src="src/imagens/falso-cavaleiro.png" alt="Falso Cavaleiro">
-                    <span class="local"> Dirthmouth</span>
-                    <div class="bestiario">
-                        <img src="src/imagens/bestiario.png" alt="Bestiario">
+                    <span class="local">Encruzilhada Esquecida</span>
+                    <img class="bestiario" class="borda" src="src/imagens/bestiario.png" alt="Bestiario">
+                    <div class="sobre-boss">
                         <p class="descricao-primaria">Um verme enlouquecido por uma força estranha. Habita uma concha blindada roubada.</p>
                         <p class="descricao-secundaria">Criaturas fracas adoram roubar a força dos outros. Suas vidas são breves e amedrontadoras, e eles anseiam por ter o poder de dominar aqueles que os dominam.</p>
-                        <img src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                     </div>
+                    <img class="bestiario" src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                 </div>
             </li>
 
             <li>
                 <div class="cartao-boss">
+                    <img class="bestiario" src="src/imagens/bestiario-inicio.png" alt="Bestiario Inicio">
                     <span class="nome-boss">Hornet</span>
-                    <img src="src/imagens/hornet.png" alt="Hornet">
+                    <img class="imagem-boss" src="src/imagens/hornet.png" alt="Hornet">
                     <span class="local">Caminho Verde</span>
-                    <div class="bestiario">
-                        <img src="src/imagens/bestiario.png" alt="Bestiario">
+                    <img class="bestiario" src="src/imagens/bestiario.png" alt="Bestiario">
+                    <div class="sobre-boss">
                         <p class="descricao-primaria">Hábil protetora das ruínas de Hallownest. Empunha uma agulha e linha.</p>
                         <p class="descricao-secundaria">Eu vi esta pequena criatura ágil. Eu pensei que ela era uma presa e a ataquei, mas com um flash ela me esfaqueou com seu ferrão voador e saiu correndo. Ela poderia ser... uma Caçadora?</p>
-                        <img src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                     </div>
+                    <img class="bestiario" src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                 </div>
             </li>
 
             <li>
                 <div class="cartao-boss">
+                    <img class="bestiario" src="src/imagens/bestiario-inicio.png" alt="Bestiario Inicio">
                     <span class="nome-boss">Lordes Louva-a-Deus</span>
-                    <img src="src/imagens/irmas-de-batalha.png" alt="Lordes Louva-a-Deus">
+                    <img class="imagem-boss" src="src/imagens/irmas-de-batalha.png" alt="Lordes Louva-a-Deus">
                     <span class="local">Ermos Fungicos</span>
-                    <div class="bestiario">
-                        <img src="src/imagens/bestiario.png" alt="Bestiario">
+                    <img class="bestiario" src="src/imagens/bestiario.png" alt="Bestiario">
+                    <div class="sobre-boss">
                         <p class="descricao-primaria">Os líderes da tribo Louva-a-Deus, e seus melhores guerreiros. Possuem ferrões-lança, e atacam com a velocidade de um raio</p>
                         <p class="descricao-secundaria">A tribo Louva-a-Deus e os insetos de Hallownest não tinham amor uns pelos outros. No entanto, os Louva-a-Deus sobreviveram a seus rivais, e sua civilização perdura.</p>
-                        <img src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                     </div>
+                    <img class="bestiario" src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                 </div>
             </li>
 
             <li>
                 <div class="cartao-boss">
+                    <img class="bestiario" src="src/imagens/bestiario-inicio.png" alt="Bestiario Inicio">
                     <span class="nome-boss">Defensor do Esterco</span>
-                    <img src="src/imagens/rei-do-esterco.png" alt="Defensor do Esterco">
+                    <img class="imagem-boss" src="src/imagens/rei-do-esterco.png" alt="Defensor do Esterco">
                     <span class="local">Hidrovia Real</span>
-                    <div class="bestiario">
-                        <img src="src/imagens/bestiario.png" alt="Bestiario">
+                    <img class="bestiario" src="src/imagens/bestiario.png" alt="Bestiario">
+                    <div class="sobre-boss">
                         <p class="descricao-primaria">Hábil guerreiro que vive no coração da Hidrovia. Ataca intrusos com bolas de esterco compactado.</p>
                         <p class="descricao-secundaria">Lutar por 'honra', ou 'lealdade'... é o mesmo que lutar por cinzas. Se você quer matar, faça isso por você mesmo. Essa é a natureza de um verdadeiro caçador.</p>
-                        <img src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                     </div>
+                    <img class="bestiario" src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                 </div>
             </li>
 
             <li>
                 <div class="cartao-boss">
+                    <img class="bestiario" src="src/imagens/bestiario-inicio.png" alt="Bestiario Inicio">
                     <span class="nome-boss">Mestre das Almas</span>
-                    <img src="src/imagens/mestre-das-almas.png" alt="Mestre das Almas">
+                    <img class="imagem-boss" src="src/imagens/mestre-das-almas.png" alt="Mestre das Almas">
                     <span class="local">Santuario das Lagrimas</span>
-                    <div class="bestiario">
-                        <img src="src/imagens/bestiario.png" alt="Bestiario">
+                    <img class="bestiario" src="src/imagens/bestiario.png" alt="Bestiario">
+                    <div class="sobre-boss">
                         <p class="descricao-primaria">Líder do Santuário das Almas. Acumulou alma com esperança de evitar a aflição de Hallownest, mas acabou se intoxicando com seu poder.</p>
                         <p class="descricao-secundaria">Os insetos de Hallownest tentaram todos os tipos de truques, rituais e orações para se livrar da infecção. Mas sem sucesso! Talvez a infecção vem de algum lugar dentro deles que eles não puderam escapar.</p>
-                        <img src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                     </div>
+                    <img class="bestiario" src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                 </div>
             </li>
 
             <li>
                 <div class="cartao-boss">
+                    <img class="bestiario" src="src/imagens/bestiario-inicio.png" alt="Bestiario Inicio">
                     <span class="nome-boss">Cavaleiro Sentinela</span>
-                    <img src="src/imagens/cavaleiro-sentinela.png" alt="cavaleiro Sentinela">
+                    <img class="imagem-boss" src="src/imagens/cavaleiro-sentinela.png" alt="cavaleiro Sentinela">
                     <span class="local">Santuario das Lagrimas</span>
-                    <div class="bestiario">
-                        <img src="src/imagens/bestiario.png" alt="Bestiario">
+                    <img class="bestiario" src="src/imagens/bestiario.png" alt="Bestiario">
+                    <div class="sobre-boss">
                         <p class="descricao-primaria">Couraça descartada de um Cavaleiro Sentinela, reanimado por um enxame de moscas infectadas</p>
                         <p class="descricao-secundaria">Quando estes guerreiros silenciosos caem em batalha, seus corpos se abrem e brotam estranhos insetos voadores> Eu me pergunto, o que virá de dentro de mim qunado eu morrer? Minhas esperanças e medos se perderão na escuridão?</p>
-                        <img src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                     </div>
+                    <img class="bestiario" src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                 </div>
             </li>
             
             <li>
                 <div class="cartao-boss">
+                    <img class="bestiario" src="src/imagens/bestiario-inicio.png" alt="Bestiario Inicio">
                     <span class="nome-boss">Receptaculo Quebrado</span>
-                    <img src="src/imagens/parente-perdido.png" alt="Receptaculo Quebrado">
+                    <img class="imagem-boss" src="src/imagens/parente-perdido.png" alt="Receptaculo Quebrado">
                     <span class="local">Bacia Antiga</span>
-                    <div class="bestiario">
-                        <img src="src/imagens/bestiario.png" alt="Bestiario">
+                    <img class="bestiario" src="src/imagens/bestiario.png" alt="Bestiario">
+                    <div class="sobre-boss">
                         <p class="descricao-primaria">Cadaver destroçado, reanimado por parasitas infectados</p>
                         <p class="descricao-secundaria">A forma dessa criatura... eu vi algo parecido antes. Talvez mais do que uma vez. Parece um pouco com os insetos de Hollownest, mas não muito. De onde vêm esses viajantes vazios?</p>
-                        <img src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                     </div>
+                    <img class="bestiario" src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                 </div>
             </li>
 
             <li>
                 <div class="cartao-boss">
+                    <img class="bestiario" src="src/imagens/bestiario-inicio.png" alt="Bestiario Inicio">
                     <span class="nome-boss">Zote o Poderoso</span>
-                    <img src="src/imagens/zote.png" alt="Zote">
+                    <img class="imagem-boss" src="src/imagens/zote.png" alt="Zote">
                     <span class="local">Dirthmouth</span>
-                    <div class="bestiario">
-                        <img src="src/imagens/bestiario.png" alt="Bestiario">
+                    <img class="bestiario" src="src/imagens/bestiario.png" alt="Bestiario">
+                    <div class="sobre-boss">
                         <p class="descricao-primaria">Um cavaleiro auto-proclamado, sem renome. Empunha um ferrão que ele esculpiu de uma casca de madeira, chamado 'Terminador de Vidas'.</p>
                         <p class="descricao-secundaria">Algumas criaturas são tão fracas e indefesas, tão tolas e irritantes que caçá-las não traz nenhum prazer.</p>
-                        <img src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                     </div>
+                    <img class="bestiario" src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
+                </div>
+            </li>
+
+            <li>
+                <div class="cartao-boss">
+                    <img class="bestiario" src="src/imagens/bestiario-inicio.png" alt="Bestiario Inicio">
+                    <span class="nome-boss">Nightmare Grimm</span>
+                    <img class="imagem-boss" src="src/imagens/nightmare-grimm.png" alt="Nightmare Grimm">
+                    <span class="local">Dirthmouth</span>
+                    <img class="bestiario" src="src/imagens/bestiario.png" alt="Bestiario">
+                    <div class="sobre-boss">
+                        <p class="descricao-primaria">Espectro torcido de uma chama escarlate.</p>
+                        <p class="descricao-secundaria">"A extenção dos sonhos foi dividida no passado. 
+                        E um reino agora deve ficar separado. 
+                        Vermelho pulsante, os escuros mais apagados.
+                        O Coração do Pesadelo. 
+                        O sonho aterrorizado"</p>
+                    </div>
+                    <img class="bestiario" src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
+                </div>
+            </li>
+
+            <li>
+                <div class="cartao-boss">
+                    <img class="bestiario" src="src/imagens/bestiario-inicio.png" alt="Bestiario Inicio">
+                    <span class="nome-boss">A Radiância</span>
+                    <img class="imagem-boss" src="src/imagens/radiance.png" alt="A Radiância">
+                    <span class="local">Encruzilhada Esquecida</span>
+                    <img class="bestiario" src="src/imagens/bestiario.png" alt="Bestiario">
+                    <div class="sobre-boss">
+                        <p class="descricao-primaria">A luz, esquecida.</p>
+                        <p class="descricao-secundaria">A praga, a infecção, a loucura que assombra os cadáveres de Hallownest... a luz que grita dos olhos deste Reino morto. Qual é a fonte? Suponho que meros mortais como eu nunca entenderão.</p>
+                    </div>
+                    <img class="bestiario" src="src/imagens/bestiario-fim.png" alt="Fim do Bestiario">
                 </div>
             </li>
         </ul>

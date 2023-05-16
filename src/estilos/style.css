@@ -3,8 +3,113 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    list-style-type: none;
+    font-weight: 500;
 }
 
 body {
-    background-color: gray;
+    background-color: #5e5b5bad;
+    color: black;
+}
+
+body.modo-escuro {
+    background-color: #212121;
+    color: #f5f5f5;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.botao {
+    background-color: transparent;
+    border: none;
+}
+
+.imagem-botao {
+    width: 50px;
+}
+
+main {
+    padding: 20px;
+}
+
+.lista-bosses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+}
+
+.cartao-boss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cbd4db;
+    padding: 18px;
+    border-radius: 15px;
+    width: 245px;
+    /* height: 460px; */
+}
+
+.modo-escuro .cartao-boss {
+    background-color: #a8a8a8;
+}
+
+.nome-boss {
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    border-bottom: 2.5px solid black;
+}
+
+.modo-escuro .nome-boss {
+    border-bottom: 2.5px solid white;
+}
+
+.imagem-boss {
+    margin: 10px 0px;
+    height: 200px;
+}
+
+.local {
+    font-size: 1.1em;
+    padding-bottom: 10px;
+}
+
+.bestiario {
+    filter: brightness(0)
+}
+.modo-escuro .bestiario {
+    filter: none;
+}
+
+.sobre-boss {
+    padding: 10px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.descricao-primaria {
+    padding: 10px 0px;
+    font-size: 1.2em;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.modo-escuro .descricao-primaria {
+    border-bottom: 2px solid white;
+}
+
+.descricao-secundaria {
+    margin-top: 8px;
+    font-size: 1.1em;
+    text-indent: 5px;
 }
