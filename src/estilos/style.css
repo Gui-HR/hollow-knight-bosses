@@ -21,20 +21,26 @@ body.modo-escuro {
 .menu {
     display: flex;
     justify-content: space-between;
-    padding: 18px;
+    padding: 18px 38px;
+    margin: 0px 20px;
 }
 
 .logo {
-    width: 100px;
+    width: 200px;
 }
 
-.botao {
+.modo-escuro .logo {
+    filter: invert(100%);
+}
+
+#botao-alterar-tema {
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
-.imagem-botao {
-    width: 50px;
+.imagem-botao-alterar-tema {
+    height: 70px;
 }
 
 main {
@@ -45,7 +51,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 18px;
+    gap: 20px;
 }
 
 .cartao-boss {
@@ -56,11 +62,18 @@ main {
     padding: 18px;
     border-radius: 15px;
     width: 245px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.425);
     /* height: 460px; */
 }
 
+.cartao-boss:hover {
+    transform: scale(1.04);
+    background-color: #dde5eb;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.555);
+}
+
 .modo-escuro .cartao-boss {
-    background-color: #a8a8a8;
+    background-color: #6b6b6b;
 }
 
 .nome-boss {
@@ -87,12 +100,14 @@ main {
 .bestiario {
     filter: brightness(0)
 }
+
 .modo-escuro .bestiario {
     filter: none;
 }
 
 .sobre-boss {
     padding: 10px;
+    margin: 8px 0px;
     height: 200px;
     overflow-y: scroll;
 }
